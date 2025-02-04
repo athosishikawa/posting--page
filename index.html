@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang=""pt-br>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+
+        </header>
+
+        <main>
+
+            <div class = "post-area">
+                <form id = "form-area">
+                    <fieldset>
+                        <label for = "titulo">TÍTULO</label>
+                        <input type = "text" id = "titulo" required>
+    
+                        <label for = "post-body">ESCREVA SEU POST</label>
+                        <textarea id="post-body" required></textarea>
+    
+                        <input type = "submit" value = "Salvar">
+                    </fieldset>
+    
+                </form>
+
+            </div>
+
+            <div class = "post-container">
+                <article class = "post">
+                    <h2 id = "reenderizador-titulo"></h2>
+                    <p id = "reenderizador-post"></p>
+                </article> 
+
+            </div>
+
+
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <script src="./postagem.js"></script>
+
+    </body>
+
+</html>
